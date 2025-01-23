@@ -1,0 +1,10 @@
+def abc(n):
+    '''hy nice to meet
+    you'''
+    if(n==0 or n==1):
+        return 1
+    else:
+        return n*abc(n-1)
+a=int(input("number: "))   
+print(abc(a))
+print(abc.__doc__)

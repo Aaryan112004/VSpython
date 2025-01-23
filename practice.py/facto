@@ -1,0 +1,7 @@
+n=int(input('enter no:'))
+f=1
+while n>0:
+    f=f*n
+    n=n-1
+    print('factorial is:',f)
+print('Your factorial is:',f)

@@ -1,0 +1,22 @@
+def calculateMean(x,y):
+    mean=(x*y)/(x+y)
+    print(mean)
+
+def isGreater(x,y):
+    if(x>y):
+        print("First no. is greater")
+    else:
+        print("Equal or second is greater")
+
+def Leaser(a,b):
+    pass
+
+a=10
+b=5
+c=55
+d=78
+print(calculateMean(a,b))
+print(isGreater(a,b))
+
+print(calculateMean(c,d))
+print(isGreater(c,d))

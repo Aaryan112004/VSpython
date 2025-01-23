@@ -1,0 +1,5 @@
+# def a(*name):
+#     single star for tuples o/p
+
+# def a(**name):
+#     double star for dictionary o/p
