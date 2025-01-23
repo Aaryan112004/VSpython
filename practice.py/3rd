@@ -1,0 +1,15 @@
+a=int(input("num1 : "))
+b=int(input("num2 : "))
+if a<b:
+    print("a is small")
+elif a>b:
+    print("a is big")
+else:
+    print("both same")
+
+
+c=input("String : ")
+if(c==c[::-1]):
+    print("Palindrom")
+else:
+    print("not palindrom")
